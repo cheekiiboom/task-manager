@@ -1,0 +1,100 @@
+/* Michael Singer mis825@lehigh.edu */
+
+th,
+td {
+    padding: 5px;
+    text-align: left;   
+}
+
+table {
+    border-collapse: collapse;
+    padding: 50px;
+    margin: auto;
+    background-color: #d0dce9;
+    margin-left: 200px;
+}
+
+.table-header {
+    outline: 3px solid black;
+    border-radius: 1px;
+    padding: 5px;
+    margin: 5px;
+}
+
+form {
+    background-color: #d0dce9;
+    padding: 50px;
+    margin: auto;
+}
+
+.task {
+    outline: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+input {
+    margin: 5px;
+}
+
+.btn {
+    background-color: #1a1a1a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: #4d4d4d;
+}
+
+.btn:active {
+    background-color: #1a1a1a;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+.table-container {
+    text-align: center;
+    float: left
+}
+
+.form-container {
+    margin-top: 65px;
+    float: left
+}
+
+body {
+    background-color: #d0dce9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 200px;
+}
+
+.table-container {
+    float: left;
+    padding: 1rem;
+    margin: auto;
+}
+
+.form-container {
+    float: left;
+    padding: 1rem;
+}

@@ -1,0 +1,58 @@
+<!-- Michael Singer mis825@lehigh.edu -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="table-container">
+            <h1 class="header">Task Manager</h1>
+            <table>
+                <tr class="table-header">
+                    <th></th>
+                    <th>Task</th>
+                    <th>Type</th>
+                    <th>Due Date</th>
+                </tr>
+
+            </table>
+        </div>
+    
+        <div class="form-container">
+            <form>
+                <input class="btn" type="submit" value="Add">
+                <input class="btn" type="submit" value="Delete">
+                <br>
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" placeholder="Description">
+                <br>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+                <br>
+                <label for="type">Type</label>
+                <select id="type" name="type">
+                    <option value="NextAction">Next Action</option>
+                    <option value="WaitingFor: ">Waiting</option>
+                    <option value="TalkTo: ">Talk</option>
+                    <option value="Future">Future</option>
+                    <option value="Someday/Maybe">Someday/Maybe</option>
+                </select>
+                <br>
+                <label for="wait-talk"></label>
+                <input type="text" id="wait-talk" name="wait-talk" placeholder="Person or thing">
+                <br>
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </div>
+</body>
+</html>
